@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html manifest="mycache.manifest">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>URL Shortener</title>
+  <link href='https://fonts.googleapis.com/css?family=Raleway' rel='stylesheet' type='text/css'>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+  <link href="styles.css" rel="stylesheet">
+</head>
+<body>
+  <div class="site-wrapper">
+    <div class="site-wrapper-inner">
+      <div class="main-container">
+        <div class="inner cover">
+          <h1>URL Shortener</h1>
+          <h5 id= "long-url"></h5>
+          <div class="row">
+            <div class="col-lg-12">
+              <div class="input-group input-group-lg">
+                <!-- <input id="url-field" type="text" class="form-control" placeholder="Paste URL link..." onfocus="this.value=''"> -->
+                <div class="input-group-btn" >
+                  <!-- <button id= "short" class="btn btn-shorten" type="button">SHORTEN URL</button> -->
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-12">	
+              <div id="output"></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+<script src="shorten.js"></script>  
+</body>
+</html>
