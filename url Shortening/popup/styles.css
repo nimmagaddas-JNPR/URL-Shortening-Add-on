@@ -10,7 +10,7 @@ body {
   font-family: 'Raleway', sans-serif;
 }
 
-/*.btn-shorten {
+.btn-shorten {
   color: #ffffff;
   background-color: #F89406;
   border: none;
@@ -23,7 +23,7 @@ body {
   color: #ffffff;
   background-color: #FA8900;
   border: none;
-}*/
+}
 
 .site-wrapper {
   display: table;
